@@ -1,5 +1,29 @@
 body {
-    background-color: #28B463;
+    background-color: #6495ED;
     font-family: "Helvetica", sans-serif;
-    color: #037ABA;
+    color: #ff9900;
   }
+  nav ul {
+    background-color: #FFD500;
+    border-style: solid;
+  border-color: #005BBB;
+  border-width: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 145, 0);
+}
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #F5FFFA;
+  padding-bottom: 10px;
+}
